@@ -6,7 +6,7 @@ acr_task_name             = "cmtrvwx4iuxhmod8cr"
 acr_sku                   = "Basic"
 platform_os               = "Linux"
 dockerfile_path           = "Dockerfile"
-docker_build_context_path = "https://github.com/pellakuru-navyasri/task08_a/tree/main/task08/application"
+docker_build_context_path = "https://github.com/pellakuru-navyasri/task08_a#main:task08/application"
 docker_image_name         = "cmtr-vwx4iuxh-mod8-app"
 context_access_token      = "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"
 
