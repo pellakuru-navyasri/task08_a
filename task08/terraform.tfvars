@@ -1,22 +1,22 @@
 location = "Central US"
 
-name_prefix = ""
+name_prefix = "cmtr-vwx4iuxh-mod8"
 
-acr_task_name             = ""
+acr_task_name             = "cmtrvwx4iuxhmod8cr"
 acr_sku                   = "Basic"
 platform_os               = "Linux"
 dockerfile_path           = "Dockerfile"
-docker_build_context_path = ""
-docker_image_name         = ""
-context_access_token      = ""
+docker_build_context_path = "https://github.com/pellakuru-navyasri/task08_a/tree/main/task08/application"
+docker_image_name         = "cmtr-vwx4iuxh-mod8-app"
+context_access_token      = "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"
 
 aci_os_type          = "Linux"
-aci_container_name   = ""
+aci_container_name   = "cmtr-vwx4iuxh-mod8-ci"
 aci_container_cpu    = "1"
 aci_container_memory = "1"
 aci_container_environment_variables = {
   "CREATOR"        = "ACI",
-  "REDIS_PORT"     = "",
+  "REDIS_PORT"     = "6380",
   "REDIS_SSL_MODE" = "True",
 }
 
